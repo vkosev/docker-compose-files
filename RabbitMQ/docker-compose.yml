@@ -3,7 +3,7 @@ version: '3.8'
 services: 
   rabbitmq:
       image: rabbitmq:3-management-alpine
-      container_name: rabbitmq_oav
+      container_name: rabbitmq
       volumes: 
        - rabbitmq_data:/var/lib/rabbitmq/
       restart: always
